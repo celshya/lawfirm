@@ -1,0 +1,55 @@
+.hero{
+    display: flex;
+   padding-top: 40px;
+  
+    
+}
+h1{
+    font-weight: 500;
+    font-size: 66px;
+
+
+}
+.heropara{
+    opacity: 30%;
+    margin: 10px 0px;
+    padding-left: 0px;
+}
+.heroText{
+    padding-top: 55px;
+    justify-content: space-between;
+}
+.emailButton{
+    width: 438px;
+    height: 74px;
+    background-color: var(--color-primary);
+    border-radius: 43px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contrastButton{
+    background-color: var(--color-contrast);
+    width:137px;
+    height:62px;
+    border-radius: 43px;
+    color: var(--color-black);
+    font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+
+.message{
+    display: flex;
+    margin-left: 20px;
+    
+}
+
+.para{
+    margin-left: 2px;
+    color: var(--color-white);
+    opacity: 30%;
+}

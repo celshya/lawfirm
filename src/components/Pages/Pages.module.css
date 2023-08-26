@@ -1,0 +1,9 @@
+.pages{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+p{
+    width:auto;
+    margin:0px 20px;
+}
