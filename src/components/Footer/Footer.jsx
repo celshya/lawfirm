@@ -1,6 +1,6 @@
 import React from 'react'
 import style from "./Footer.module.css"
-import NavBar from '../NavBar/NavBar'
+
 import { FaFacebook, FaTwitter, FaPinterest, FaInstagram } from 'react-icons/fa';
 import Logo from '../Logo/Logo'
 import Pages from '../Pages/Pages'
