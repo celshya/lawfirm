@@ -30,3 +30,6 @@ img,svg{
 .swiper-slide{
   width: auto !important;
 }
+.footer{
+  padding: 0px;
+}

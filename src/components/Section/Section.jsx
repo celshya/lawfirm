@@ -4,6 +4,8 @@ import CardLayout from '../CardLayout/CardLayout'
 import GridLayout from "../GridLayout/GridLayout"
 import ClientCard from '../ClientCard/ClientCard'
 import Teamcard from '../TeamCard/Teamcard'
+import Faq from '../FAQ/Faq'
+import NewsLetter from '../NewsLetter/NewsLetter'
 const Section = () => {
   return (
     <div className={style.section}>
@@ -22,6 +24,8 @@ const Section = () => {
         <GridLayout/>
         <ClientCard/>
         <Teamcard/>
+        <Faq/>
+        <NewsLetter/>
         
     </div>
   )

@@ -1,0 +1,17 @@
+.text{
+    display:flex;
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.Teamcard{
+    margin-top: 100px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+}

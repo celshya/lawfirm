@@ -1,0 +1,22 @@
+.faqContainer{
+    margin-top: 150px;
+    display: flex;
+}
+.text{
+    font-weight: 600;
+    font-size: 40px;
+}
+.content{
+    margin-left: 0px;
+    font-size: 15px;
+    opacity: 30%;
+}
+.accord{
+    padding: 40px;
+}
+
+.item{
+    background-color: var(--color-black) !important;
+    padding:20px;
+}
+

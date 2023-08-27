@@ -1,0 +1,29 @@
+.teamCard{
+    width: 344px;
+    height:109px;
+    display: flex;
+    border-radius: 14px;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 10px;
+  
+}
+.text{
+    margin-left: 0px;
+    font-size: 15px;
+    opacity: 30%;
+}
+.teamCard:hover{
+    background-color: var(--color-contrast);
+    cursor: pointer;
+ 
+}
+.teamCard:hover h5 {
+    color: black;
+  }
