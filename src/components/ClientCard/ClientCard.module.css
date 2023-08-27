@@ -1,0 +1,39 @@
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+     
+}
+
+.person{
+    display: flex;
+}
+.clientCard{
+    margin-top: 150px;
+}
+
+.text{
+    font-size: 40px;
+    font-weight: 600;
+    width: 374px;
+    
+}
+
+.btn{
+    background-color: #E6E6E6;
+    color: black;
+    border-radius: 100%;
+   border: none;
+   cursor: pointer;
+   margin: 5px;
+   width:60px;
+   height:60px
+}
+.btn:hover{
+    background-color: var(--color-contrast);
+}
+.btnContainer{
+gap:20px;
+}

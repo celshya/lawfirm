@@ -1,0 +1,48 @@
+.left-image{
+    flex-shrink: 0;
+    padding-left: 10px;
+
+}
+.singleCard{
+    background-color: var(--color-black) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) ;
+ 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 14px;
+    
+}
+.singleCard:hover{
+    background-color: #FFFFFF;
+    opacity: 80%;
+}
+.contrastButton{
+    background-color: var(--color-contrast);
+    width:137px;
+    height:62px;
+    border-radius: 43px;
+    color: var(--color-black);
+    font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+   cursor: pointer;
+}
+.cardTitle{
+    color:white;
+    font-size: 24px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.cardPara{
+    color: white !important;
+    opacity: 30%;
+    margin-left: 0px;
+}
+
+.ceo{
+    margin-left: 0px;
+    margin-bottom: 15px;
+}

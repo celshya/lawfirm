@@ -1,0 +1,17 @@
+.text{
+    font-size: 40px;
+    font-weight: 600;
+}
+.cardLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.card{
+    display: flex;
+   margin: 50px;
+
+
+}

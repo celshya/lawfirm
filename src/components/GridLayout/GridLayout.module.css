@@ -1,0 +1,36 @@
+
+    .text{
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+.grid:hover{
+  cursor: pointer;
+  
+
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 70px;
+}
+.footertext{
+    margin-top: 8px;
+}
+
+.item{
+    position: relative;
+  }
+.overlay {
+    position: absolute;
+    bottom:5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+ 
